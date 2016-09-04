@@ -1,0 +1,14 @@
+#Gzip
+<ifmodule mod_deflate.c>
+AddOutputFilterByType DEFLATE text/text text/html text/plain text/xml text/css application/x-javascript application/javascript text/javascript
+</ifmodule>
+#End Gzip
+
+<FilesMatch "\.(ico|pdf|flv|jpg|jpeg|png|gif|js|css|swf)$">
+Header set Cache-Control "max-age=604800, public"
+</FilesMatch>
+
+#Force www:
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^asdi.in [NC]
+RewriteRule ^(.*)$ http://www.asdi.in/$1 [L,R=301,NC]

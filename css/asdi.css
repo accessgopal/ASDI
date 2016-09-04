@@ -1,0 +1,707 @@
+/*
+**************************************
+Analytical Skill Development Institute
+**************************************
+
+Author: Gopal Krishna
+
+Main Color:
+	rgb(0, 94, 173)
+
+Dark Color:
+	#001224
+
+**************************************
+*/
+
+
+
+/* Custom Font Starts */
+
+@font-face {
+    font-family: myFont;
+    src: url(../fonts/Gotham-Book.otf);
+}
+
+@font-face {
+    font-family: myHeader;
+    src: url(../fonts/Gotham-Medium.otf);
+}
+
+
+@font-face {
+    font-family: bignumber;
+    src: url(../fonts/Gotham-Ultra.otf);
+}
+
+
+/*Custom Font Ends*/
+
+
+/*Global Formatting*/
+
+
+
+body {
+	font-size: 16px;
+	line-height: 1.5;
+	font-family: 'myFont', sans-serif;
+	color: #444;
+	background-color: #fff;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+h1, h2, h3 {
+	
+	text-align: center;
+	margin-bottom: 30px;
+	font-family: 'myHeader', sans-serif;
+	line-height: 1.5;
+}
+
+.row {
+	margin: 0px auto;
+	padding: 85px 0 111px 0;
+
+}
+
+.row h1, h2 {
+	margin-bottom: 50px;
+}
+
+.grey-row { 
+	background-color: #eee;	
+}
+
+.blue-row { 
+	background: linear-gradient(30deg, rgba(0, 94, 173, .7), rgba(0, 94, 173, .9));
+	color: white;	
+}
+
+/*Global Formatting Ends*/
+
+
+/*Navbar Customization*/
+
+
+.navbar {
+	box-shadow: 0 1px 1px #ccc;
+	font-size: 15px;
+	font-family: 'myHeader', sans-serif;
+}
+
+.open .dropdown-menu {
+	
+	box-shadow: 0 1px 1px #ccc;
+}
+
+.navbar-nav li a, 
+.navbar-nav li a:link
+
+{
+	transition: color .12s, transform .12s;
+}
+
+
+.navbar-nav li a:hover {
+	color: #fff;
+	background-color: rgb(0, 94, 173);
+	transform: scale(1.1, 1.1);
+}
+
+.navbar-brand {
+	margin: 0;
+	padding: 0;
+
+}
+
+
+/*Navbar Customization Ends*/
+
+
+
+/*Main View Port*/
+
+
+.jumbotron {
+	height: 100vh;
+	background-image: url(../images/main-viewport-image-analytics-data.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: 'myFont', sans-serif;
+	margin: 0;
+	color: #fff;
+}
+
+.jumbotron h1 {
+	text-align: left;
+	font-size: 230%;
+	line-height: 1.2;
+}
+
+.jumbotron h1:after {
+	content: "";
+	display: block;
+	border-bottom: 2px solid white;
+	margin: 5px 0 5px 0;
+}
+
+.jumbotron h2 {
+	text-align: left;
+	font-size: 150%;
+}
+
+.jumbotron p {
+	
+	text-align: left;
+	font-size: 120%;
+	line-height: 1.5;
+}
+
+
+.main-text {
+	background-color: rgba(0, 94, 173, .85);
+	box-shadow: 2px 2px 2px #ccc;
+	margin-top: 50px;	
+	padding: 20px 20px 20px 20px;
+
+}
+
+
+
+.btn-primary {
+	background-color: rgb(0, 97, 150);
+	border: 2px solid #fff;
+	margin: 5px;
+	transition: transform .3s;
+
+}
+
+.btn-primary:hover {
+	
+	border: 2px solid #fff;
+	transform: scale(1.05, 1.05);
+
+}
+
+
+/*Main View Port Ends*/
+
+
+
+/*Browser Text Selection Styling */
+
+::selection {
+	color: white;
+	background-color: rgb(0, 97, 174);
+	padding: 5px;
+}
+
+::-moz-selection {
+	color: white;
+	background-color: rgb(0, 97, 174);
+	padding: 5px;
+}
+
+/*Browser Text Selection Styling End*/
+
+
+
+/*Featured Courses */
+
+.featured-courses-block{
+	margin-top: 100px;
+}
+
+.featured-courses {
+	color: white;
+	background: linear-gradient(30deg, rgba(230,111,0, .85), rgba(220,111,0, .75));
+	margin-bottom: 10px;
+	padding: 30px 30px;
+	text-align: center;
+	transition: transform .2s;
+	box-shadow: 2px 2px 2px #ccc;
+
+}
+
+
+.featured-courses:hover {
+	transform: scale(1.1, 1.1);
+}
+
+.featured-courses h3 {
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+
+.featured-courses h3:after {
+	content: "";
+	display: block;
+	border-bottom: 3px solid white;
+	padding-bottom: 20px;
+}
+
+.featured-courses i {
+	font-size: 300%;
+}
+
+.featured-courses a {
+	display: block;
+	text-decoration: none;
+	color:white;
+	border: 2px solid white;
+	padding: 7px;
+	margin: auto;
+	margin-top: 20px;
+	width: 150px;
+	border-radius: 5px;
+}
+
+.featured-courses a:hover {
+	background-color: rgb(0, 94, 173);
+}
+
+.featured-courses a i {
+	font-size: 100%;
+}
+
+
+/*Feature Courses Section End*/
+
+
+/*Success Numbers */
+
+
+.big-number {
+	display: block;
+	margin: auto;
+	text-align: center;
+	font-size: 350%;
+	font-family: 'bignumber', sans-serif;
+
+
+}
+
+.big-text {
+	display: block;
+	margin: auto;
+	text-align: center;
+	font-size: 120%;
+	padding-top: 0px;
+	text-transform: capitalize;
+	font-family: 'myHeading', sans-serif;
+	letter-spacing: 1px;
+
+
+}
+
+.main-number i {
+	display: block;
+	text-align: center;	
+	font-size: 400%;
+	margin: 0;
+
+}
+
+.classroom {
+	background-image: linear-gradient(30deg, rgba(0, 94, 173, .7), rgba(0, 94, 173, .9)), url(../images/classroom.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+
+/*Success Number Ends*/
+
+
+/*Success Steps*/
+
+.success-step {
+	margin: 10px 0 10px 0;
+	background: linear-gradient(30deg, rgba(0, 94, 173, .7), rgba(0, 94, 173, .9));
+	padding: 30px;
+	color: white;
+	box-shadow: 2px 2px 2px #ccc;
+	transition: transform .180s;
+}
+
+.success-step:hover {
+	transform: scale(1.1, 1.1);
+}
+
+
+
+.success-step h3 {
+	text-align: left;
+}
+
+.success-step h3:before {
+	content: "";
+	display: block;
+	border-top: 2px solid white;
+	margin-bottom: 10px;
+}
+
+.success-step h3:after {
+	content: "";
+	display: block;
+	border-bottom: 2px solid white;
+	margin-top: 10px;
+}
+
+/*Success Step Ends*/
+
+
+/*Placement Section*/
+
+.company-logo {
+	padding: 10px;
+	text-align: center;
+}
+
+.company-logo img {
+	border-radius: 5px;
+	box-shadow: 2px 2px 2px #ccc;
+	transition: transform .2s;
+	filter: grayscale(100%);
+}
+.company-logo img:hover {
+	transform: scale(1.2, 1.2);
+	filter: none;
+}
+
+
+.alumni {
+	background: linear-gradient(30deg, rgba(240, 240, 240, .80), rgba(240, 240, 240, .85)), url(../images/corporate.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+
+/*Placement Section Ends*/
+
+
+/*Testimonial Section*/
+
+.blue-row-new {
+	background-color: #2575B9;
+	color: white;
+}
+
+.dialog-box {
+	/*height: 170px;*/
+	background-color: white;
+	border-radius: 3px;
+	padding: 30px;
+	color: #2575B9;
+	vertical-align: center;
+	position: relative;
+	margin: 10px 0 20px 0;
+}
+
+
+.dialog-box:after {
+	content: "";
+	position: absolute;
+	top: 100%;
+	left: 30%;
+	background-color: rgba(255, 255, 255, .85);
+	border-width: 15px;
+	border-style: solid;
+	border-color: white #2575B9 #2575B9 #2575B9;
+}
+
+.story-button a {
+	display: block;
+	width: 225px;
+	margin: auto;
+}
+
+.student-image {
+	display: block;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+.student-image img {
+	border-radius: 50px;
+}
+
+.student-image p {
+	margin-top: 10px;
+}
+
+.address-text {
+	line-height: 2;
+	font-size: 120%;
+	/*background-color: #dedede;*/
+	padding:20px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+.address-text h3 {
+	text-align: left;
+}
+
+.address-area {
+	margin-bottom: 30px;
+}
+
+.map img {
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+
+
+/*Testimonial Section Ends*/
+
+
+/*__________________________________________
+
+Footer 
+____________________________________________*/
+
+h5 {
+	font-size: 14px;
+	color: white;
+	font-family: 'myHeader', sans-serif;
+	margin-bottom: 20px;
+}
+
+footer {
+	background: #111;
+	margin: 0;
+	padding-left: 20px;
+	padding-top: 20px;
+	text-align: left;
+}
+
+.footer-text {
+	
+	padding: 20px;
+	color: grey;
+	/*height: 350px;*/
+	margin: 10px 0 20px 0;
+}
+
+.footer-text a {
+	
+	color: grey;
+}
+
+.footer-text a:hover {
+	
+	text-decoration: none;
+	color: rgb(0, 94, 173);
+}
+
+.footer-text:nth-child(2) {
+	border-left: 1px solid #000;
+	border-right: 1px solid #000;
+	height: 290px;
+}
+
+
+.footer-text address {
+	line-height: 2;
+
+}
+
+.footer-text address i {
+	font-size: 120%;
+
+}
+
+
+
+.copyright {
+	margin-top: 80px;
+	text-align: center;
+	color: grey;
+	
+}
+
+.branding {
+	text-align: center;
+	color: #999;
+	font-size: 70%;
+	text-decoration: none;
+	margin-top: 10px;
+}
+
+.branding a {
+	color: #999;
+}
+
+.branding a:hover {
+	
+	text-decoration: none;
+}
+
+.top-margin {
+	margin-top: 90px;
+}
+
+.core-value h3 {
+	text-align: left;
+	color: rgb(0, 97, 174);
+}
+
+.why-us {
+	background: linear-gradient(30deg, rgba(0, 97, 174, .85), rgba(0, 97, 174, .9));
+	color: white;
+	padding: 5%;
+	margin-top: 60px;
+	margin-bottom: 100px;
+	font-size: 120%;
+	box-shadow: 2px 2px 1px #ccc;
+}
+
+.why-us h2 {
+	margin-bottom: 20px;
+}
+
+.story img {
+	display: block;	
+	margin: auto;
+	text-align: center;
+	border-radius: 30px;
+	margin-bottom: 20px;
+}
+
+.student-name {
+	display: block;
+	margin: auto;
+	text-align: center;
+}
+
+.success-stories {
+	margin-bottom: -60px;
+	padding-bottom: 0;
+}
+
+hr {
+	border-bottom: 1px dotted #ccc;
+	width: 50%;
+	margin-bottom: 30px;
+}
+
+.single-student {
+	box-shadow: 0px 2px 1px #ccc;
+	border-radius: 3px;
+	padding: 30px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	width: 80%;
+}
+
+.heading-para {
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+.course-card {
+	height: 500px;
+	background-color: #dedede;
+	padding: 20px;
+	margin-bottom: 20px;
+	box-shadow: 1px 1px 1px #ccc;
+	transition: transform .2s;
+}
+
+.course-card:hover {
+	transform: scale(1.1, 1.1);
+}
+
+.course-image {
+	height: 60px;
+	border-bottom: 1px solid #ccc;
+	background: linear-gradient(30deg, rgba(0, 97, 174, .85), rgba(0, 97, 174, .95));
+	color: white;
+	box-shadow: 1px 1px 1px #ccc;
+}
+
+.course-image h2{
+	margin: 0;
+	padding-top: 15px;
+}
+
+.course-text {
+	padding-top: 20px;
+	height: 220px;
+	border-bottom: 1px solid #ccc;
+}
+
+.course-duration {
+	height: 60px;
+	border-bottom: 1px solid #ccc;
+	padding-top: 20px;
+}
+
+.course-fee {
+	height: 60px;
+	border-bottom: 1px solid #ccc;
+	padding-top: 20px;
+}
+
+.course-fee i {
+	font-size: 120%;
+}
+
+
+.course-details {
+	margin: 0;
+	padding-top: 30px;
+	padding-bottom: 0;
+}
+
+
+
+
+/*Icon Formatting*/
+
+.ion-heart {
+	color:red;
+}
+
+.ion-social-facebook {
+	font-size: 200%;
+}
+
+.ion-social-facebook:hover {
+	font-size: 200%;
+	color: rgb(0, 97, 174);
+	cursor: default;
+}
+
+.ion-quote {
+	font-size: 150%;
+}
+
+.ion-clock {
+	font-size: 120%;
+}
+
+/*Icon Formatting Ends*/
+
+@media only screen and (max-width: 500px){
+
+.main-text { 
+	font-size: 90%;
+ }
+
+.navbar ul li {
+	font-size: 16px;
+	padding: 10px;
+	margin: 15px;
+}
+
+}
