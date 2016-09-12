@@ -15,7 +15,6 @@ Dark Color:
 */
 
 
-
 /* Custom Font Starts */
 
 @font-face {
@@ -27,7 +26,6 @@ Dark Color:
     font-family: myHeader;
     src: url(../fonts/Gotham-Medium.otf);
 }
-
 
 @font-face {
     font-family: bignumber;
@@ -702,6 +700,6 @@ hr {
 	font-size: 16px;
 	padding: 10px;
 	margin: 15px;
-}
+i}
 
 }
