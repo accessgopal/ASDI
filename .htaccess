@@ -12,3 +12,4 @@ Header set Cache-Control "max-age=604800, public"
 RewriteEngine on
 RewriteCond %{HTTP_HOST} ^asdi.in [NC]
 RewriteRule ^(.*)$ http://www.asdi.in/$1 [L,R=301,NC]
+#End Force www
