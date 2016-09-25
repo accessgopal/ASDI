@@ -5,7 +5,7 @@ The website is an institute which provides Analytical and Actuary training. The 
 * Fast Loading 
 * Clean and Intutive Structure 
 * Chat Functionality 
-=======
+
 ## Courses
 * Actuarial Science
 * Data Analytics 
