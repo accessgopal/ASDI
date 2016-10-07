@@ -1,0 +1,22 @@
+/* TEAM */
+
+ABGO Designs
+Location: Somewhere in India
+Site: http://www.abgo-designs.com
+Twitter: @ABGODesigns
+Developer: Gopal Krishna
+
+/* THANKS */
+
+Null
+
+/* SITE */
+
+Standards: HTML, CSS, W3C 
+Components: Bootstrap, jQuery, ionic
+Software: SublimeText 3 on Mac
+API: tawk.to 
+
+
+
+
