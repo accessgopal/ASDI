@@ -4,7 +4,11 @@ ABGO Designs
 Location: Somewhere in India
 Site: http://www.abgo-designs.com
 Twitter: @ABGODesigns
-Developer: Gopal Krishna
+Developers: 
+Gopal Krishna: Project Lead/Trainer
+Arinjay Sharma: Intern
+Bhavya Ahuja: Intern
+Ashish Rana: Intern
 
 /* THANKS */
 
